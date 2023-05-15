@@ -2,7 +2,7 @@
 # FIFO can be Better than LRU: the Power of Lazy Promotion and Quick Demotion
 This repo contains code for HotOS'23 paper: [FIFO can be Better than LRU: the Power of Lazy Promotion and Quick Demotion](https://junchengyang.com/publications/HotOS23-qdlp.pdf)
 
-![HotOS diagram](diagram.png)
+![HotOS diagram](diagram1.png)
 
 
 ### Abstract
@@ -40,6 +40,7 @@ The compressed traces can be used with libCacheSim without decompression.
 
 
 ### License
+```
 Copyright 2023, Carnegie Mellon University
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -53,7 +54,7 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
+```
 
 ### Acknowledgement
 We greatly thank the following people and organizations that made this work possible. 
@@ -63,8 +64,8 @@ We greatly appreciate the resources and support provided by [Cloudlab](https://c
 
 #### Open source cache traces and **the people behind it**
 * [Twitter](https://github.com/twitter/cache-traces)
-* [Tencent Block](https://www.usenix.org/conference/atc20/presentation/zhang-yu) [Download](http://iotta.snia.org/traces/parallel?only=27917)
-* [Tencent Photo](https://dl.acm.org/doi/10.1145/3205289.3205299) [Download](http://iotta.snia.org/traces/parallel?only=27476)
+* [Tencent Block](https://www.usenix.org/conference/atc20/presentation/zhang-yu) ([Download](http://iotta.snia.org/traces/parallel?only=27917))
+* [Tencent Photo](https://dl.acm.org/doi/10.1145/3205289.3205299) ([Download](http://iotta.snia.org/traces/parallel?only=27476))
 * [Wikimedia CDN](https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Traffic/Caching)
 * [Alibaba Block](https://github.com/alibaba/block-traces)
 * [MSR](http://iotta.snia.org/traces/block-io?only=388)
@@ -82,8 +83,8 @@ This work was supported in part by Facebook Fellowship, NSF grants CNS 1901410, 
 @inproceedings{yang2023qd,
   title={FIFO can be Better than LRU: the Power of Lazy Promotion and Quick Demotion},
   author={Yang, Juncheng and Qiu, Ziyue and Zhang, Yazhuo and Yue, Yao and Rashmi, K.V.},
-  booktitle={HotOS (HotOS 23)},
-  <!-- pages={1-8}, -->
+  booktitle={The 19th Workshop on Hot Topics in Operating Systems (HotOS 23)},
+  pages={1-8},
   year={2023}
 }
 ``` 
