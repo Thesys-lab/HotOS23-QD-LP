@@ -10,8 +10,19 @@ LRU has been the basis of cache eviction algorithms for decades, with a plethora
 
 We performed a large-scale simulation study using 6587 block and web cache workloads collected in the past two decades. We find that contrary to what common wisdom sug- gests, some FIFO-based algorithms, such as FIFO-Reinsertion (or CLOCK), are, in fact, more efficient than LRU. Moreover, we find that qick demotion — evicting most new objects very quickly — is critical for space efficiency. We show that when enhanced by qick demotion, not only can state-of-the-art algorithms be more efficient, a simple FIFO-based algorithm can outperform five complex state-of-the-art in terms of miss ratio. 
 
+
 ### Repo structure 
 The repo is a snapshot of [libCacheSim](https://github.com/1a1a11a/libCacheSim) which contains the implementation of the algorithms compared in the paper. 
+
+
+### How to use libCacheSim
+You can compile libCacheSim which will provide a `cachesim` util, then you can run simulations with
+```bash
+# ./cachesim DATAPATH TRACE_FORMAT EVICTION_ALGO CACHE_SIZE [OPTION...]
+./cachesim DATA oracleGeneral lru,arc,lecar,qdlp 0 --ignore-obj-size 1
+```
+Detailed instructions can be found at [libCacheSim](https://github.com/1a1a11a/libCacheSim).
+
 
 ### Traces
 The traces we used can be found at [https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/hotos23_QDLP/](https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/hotos23_QDLP/)
