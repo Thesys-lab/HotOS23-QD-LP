@@ -25,7 +25,7 @@ Detailed instructions can be found at [libCacheSim](https://github.com/1a1a11a/l
 
 
 ### Traces
-The traces we used can be found at [https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/hotos23_QDLP/](https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/hotos23_QDLP/)
+The traces we used will be released soon
 
 The traces are [zstd](https://github.com/facebook/zstd) compressed and have the following format:
 ```c
@@ -75,7 +75,7 @@ We greatly appreciate the resources and support provided by [Cloudlab](https://c
 #### Funding
 [Meta Fellowship](https://research.facebook.com/blog/2020/1/announcing-the-recipients-of-the-2020-facebook-fellowship-awards/),  
 
-This work was supported in part by Facebook Fellowship, NSF grants CNS 1901410, CNS 1956271, CNS 1763617, and a AWS grant. 
+This work was supported in part by Facebook Fellowship, NSF grants CNS 1901410 and 1956271, and a AWS grant. 
 
 
 ### Citation
@@ -84,7 +84,6 @@ This work was supported in part by Facebook Fellowship, NSF grants CNS 1901410, 
   title={FIFO can be Better than LRU: the Power of Lazy Promotion and Quick Demotion},
   author={Yang, Juncheng and Qiu, Ziyue and Zhang, Yazhuo and Yue, Yao and Rashmi, K.V.},
   booktitle={The 19th Workshop on Hot Topics in Operating Systems (HotOS 23)},
-  pages={1-8},
   year={2023}
 }
 ``` 
