@@ -73,7 +73,7 @@ We greatly appreciate the resources and support provided by [Cloudlab](https://c
 * [CloudPhysics](https://www.usenix.org/conference/fast15/technical-sessions/presentation/waldspurger)
 
 #### Funding
-[Meta Fellowship](https://research.facebook.com/blog/2020/1/announcing-the-recipients-of-the-2020-facebook-fellowship-awards/),  
+[Meta Fellowship](https://research.facebook.com/blog/2020/1/announcing-the-recipients-of-the-2020-facebook-fellowship-awards/)
 
 This work was supported in part by Facebook Fellowship, NSF grants CNS 1901410 and 1956271, and a AWS grant. 
 
