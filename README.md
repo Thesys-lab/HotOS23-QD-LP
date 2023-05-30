@@ -1,6 +1,6 @@
 
 # FIFO can be Better than LRU: the Power of Lazy Promotion and Quick Demotion
-This repo contains code for HotOS'23 paper: [FIFO can be Better than LRU: the Power of Lazy Promotion and Quick Demotion](https://junchengyang.com/publication/HotOS23-qdlp.pdf)
+This repo contains code for HotOS'23 paper: [FIFO can be Better than LRU: the Power of Lazy Promotion and Quick Demotion](https://junchengyang.com/publication/hotos23-qdlp.pdf)
 
 ![HotOS diagram](diagram1.png)
 
